@@ -1,4 +1,4 @@
-/* Global Styles */
+
 :root {
 	--primary-color: #e50914;
 	--dark-color: #141414;
@@ -22,10 +22,7 @@ ul {
 	list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1,h2,h3,h4 {
 	color: #fff;
 }
 
@@ -112,7 +109,7 @@ img {
 	margin: 0 0 2rem;
 }
 
-/* Tabs */
+
 .tabs {
 	background: var(--dark-color);
 	padding-top: 1rem;
@@ -154,7 +151,7 @@ img {
 	color: #fff;
 }
 
-/* Hide initial content */
+
 #tab-1-content,
 #tab-2-content,
 #tab-3-content {
@@ -163,8 +160,8 @@ img {
 }
 
 .show {
-	display: block !important;
-	opacity: 1 !important;
+	display: block;
+	opacity: 1;
 	transition: all 1000 ease-in;
 }
 
@@ -260,7 +257,7 @@ img {
 	border-radius: 5px;
 }
 
-/* Container */
+
 .container {
 	max-width: 70%;
 	margin: auto;
@@ -268,7 +265,7 @@ img {
 	padding: 0 2rem;
 }
 
-/* Text Styles */
+
 .text-xl {
 	font-size: 2rem;
 }
@@ -291,7 +288,7 @@ img {
 	color: #999;
 }
 
-/* Buttons */
+
 .btn {
 	display: inline-block;
 	background: var(--primary-color);
