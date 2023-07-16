@@ -160,8 +160,8 @@ img {
 }
 
 .show {
-	display: block;
-	opacity: 1;
+	display: block !important;
+	opacity: 1 !important;
 	transition: all 1000 ease-in;
 }
 
